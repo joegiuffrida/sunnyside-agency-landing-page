@@ -8,8 +8,18 @@ export default function Home() {
       <Head>
         <title>Sunnyside Agency</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <section className={styles.heroContainer}>Hero Page</section>
+      <section className={styles.heroContainer}>
+        <div className={styles.heroTitle}>
+          <h1>We Are Creatives</h1>
+        </div>
+        <div className={styles.heroArrow}>Arrow</div>
+        <div className={styles.heroImage}>Orange</div>
+      </section>
       <section className={styles.benefitsContainer}>
         <div>Egg Image</div>
         <div>Transform Your Brand</div>

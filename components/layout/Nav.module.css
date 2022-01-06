@@ -1,0 +1,23 @@
+.navContainer {
+  display: flex;
+  padding: 25px 15px;
+  background-color: hsl(200, 99%, 62%);
+}
+
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.mobileButton {
+  font-size: 1.5em;
+  /* padding: 0.25em 0.75em; */
+  /* border-radius: 1em; */
+  border-color: transparent;
+  background-color: hsl(200, 99%, 62%);
+  color: white;
+  cursor: pointer;
+}
