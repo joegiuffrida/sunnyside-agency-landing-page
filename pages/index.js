@@ -14,15 +14,29 @@ export default function Home() {
         />
       </Head>
       <section className={styles.heroContainer}>
-        <div className={styles.heroTitle}>
-          <h1>We Are Creatives</h1>
+        <div className={styles.heroImage}>
+          <img src="/mobile/image-header.jpg" />
+          {/* <div className={styles.heroArrow}>
+            <Image src="/icon-arrow-down.svg" height={175} width={50} />
+          </div> */}
         </div>
-        <div className={styles.heroArrow}>Arrow</div>
-        <div className={styles.heroImage}>Orange</div>
+        {/* <div className={styles.heroTitle}>
+          <h1>We Are Creatives</h1>
+        </div> */}
       </section>
       <section className={styles.benefitsContainer}>
-        <div>Egg Image</div>
-        <div>Transform Your Brand</div>
+        <div className={styles.transformEgg}>
+          <img src="/mobile/image-transform.jpg" />
+        </div>
+        <div className={styles.transformText}>
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a>Learn More</a>
+        </div>
         <div>Wine Cup</div>
         <div>Stand out to the right audience</div>
         <div>Graphic Design</div>
