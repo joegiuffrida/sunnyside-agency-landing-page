@@ -44,7 +44,7 @@
 } */
 
 .heroContainer {
-  max-width: 375px;
+  max-width: 500px;
   min-width: 320px;
   /* max-height: 680px; */
 }
@@ -78,7 +78,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 375px;
+  max-width: 500px;
   min-width: 320px;
   text-align: center;
 }
@@ -133,7 +133,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 375px;
+  max-width: 500px;
   min-width: 320px;
   text-align: center;
 }
@@ -165,7 +165,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 375px;
+  max-width: 500px;
   min-width: 320px;
   line-height: 0;
 }
