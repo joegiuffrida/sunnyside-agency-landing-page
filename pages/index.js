@@ -14,15 +14,15 @@ export default function Home() {
         />
       </Head>
       <section className={styles.heroContainer}>
-        <div className={styles.heroImage}>
-          <img src="/mobile/image-header.jpg" />
-          {/* <div className={styles.heroArrow}>
-            <Image src="/icon-arrow-down.svg" height={175} width={50} />
-          </div> */}
+        <div className={styles.heroContent}>
+          <h1 className={styles.heroTitle}>WE ARE CREATIVES</h1>
+          <img
+            src="/icon-arrow-down.svg"
+            height={100}
+            width={40}
+            className={styles.heroArrow}
+          />
         </div>
-        {/* <div className={styles.heroTitle}>
-          <h1>We Are Creatives</h1>
-        </div> */}
       </section>
       <section className={styles.benefitsContainer}>
         <div className={styles.transformImage}>
