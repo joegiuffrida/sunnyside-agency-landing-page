@@ -1,6 +1,7 @@
 .navContainer {
   display: flex;
-  padding: 25px 25px;
+  justify-content: center;
+  padding: 25px 0;
   background-color: hsl(200, 99%, 62%);
   min-width: 320px;
   max-width: 500px;
@@ -10,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 85%;
   color: white;
 }
 

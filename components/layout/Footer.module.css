@@ -22,7 +22,7 @@
 .footerLinks {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   color: hsl(168, 34%, 38%);
 }
 
@@ -31,4 +31,17 @@
   justify-content: space-between;
   width: 60%;
   margin: 50px 0;
+}
+
+.footerLinks li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.socialIcons:hover {
+  fill: white;
+}
+
+.footerSocial li:hover {
+  cursor: pointer;
 }
