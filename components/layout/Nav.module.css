@@ -1,6 +1,6 @@
 .navContainer {
   display: flex;
-  padding: 25px 15px;
+  padding: 25px 25px;
   background-color: hsl(200, 99%, 62%);
   min-width: 320px;
   max-width: 375px;
@@ -14,11 +14,17 @@
   color: white;
 }
 
+.navHeader a {
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
 .mobileButton {
+  display: flex;
   font-size: 1.5em;
-  /* padding: 0.25em 0.75em; */
-  /* border-radius: 1em; */
-  border-color: transparent;
+  padding: 0;
+  border: none;
   background-color: hsl(200, 99%, 62%);
   color: white;
   cursor: pointer;

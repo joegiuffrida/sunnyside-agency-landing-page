@@ -25,7 +25,7 @@ export default function Home() {
         </div> */}
       </section>
       <section className={styles.benefitsContainer}>
-        <div className={styles.transformEgg}>
+        <div className={styles.transformImage}>
           <img src="/mobile/image-transform.jpg" />
         </div>
         <div className={styles.transformText}>
@@ -35,28 +35,48 @@ export default function Home() {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <a>Learn More</a>
+          <a>LEARN MORE</a>
         </div>
-        <div>Wine Cup</div>
-        <div>Stand out to the right audience</div>
-        <div>Graphic Design</div>
-        <div>Photography</div>
+        <div className={styles.standoutImage}>
+          <img src="/mobile/image-stand-out.jpg" />
+        </div>
+        <div className={styles.standoutText}>
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we'll build and
+            extend your brand in digital places.
+          </p>
+          <a>LEARN MORE</a>
+        </div>
+        <div className={styles.graphicDesign}>
+          <img src="/mobile/image-graphic-design.jpg" />
+        </div>
+        <div className={styles.photography}>
+          <img src="/mobile/image-photography.jpg" />
+        </div>
       </section>
-      <section className={styles.testimonials}>
-        <div>
-          For the testimonials create a testimonial component to render here
-        </div>
-        <div>then we can map over testimonials</div>
-        <div>
-          and have the component generate in a list. OR JUST KEEP SIMPLE and
-          make three divs
+      <section className={styles.testimonialContainer}>
+        <h2>CLIENT TESTIMONIALS</h2>
+        <div className={styles.testimonial}>
+          <img src="/image-emily.jpg" />
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h3>Emily R.</h3>
+          <h4>Marketing Director</h4>
         </div>
       </section>
       <section className={styles.gallery}>
-        <div>Image</div>
-        <div>Image</div>
-        <div>Image</div>
-        <div>Image</div>
+        <div>
+          <img src="/mobile/image-gallery-milkbottles.jpg" />
+          <img src="/mobile/image-gallery-orange.jpg" />
+        </div>
+        <div>
+          <img src="/mobile/image-gallery-cone.jpg" />
+          <img src="/mobile/image-gallery-sugar-cubes.jpg" />
+        </div>
       </section>
     </main>
   );
