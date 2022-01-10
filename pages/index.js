@@ -76,6 +76,24 @@ export default function Home() {
           <h3>Emily R.</h3>
           <h4>Marketing Director</h4>
         </div>
+        <div className={styles.testimonial}>
+          <img src="/image-thomas.jpg" />
+          <p>
+            Sunnyside's enthusiasm coupled with their keen interest in our
+            brand's success made it a satisfying and enjoyable exprience.
+          </p>
+          <h3>Thomas S.</h3>
+          <h4>Chief Operating Officer</h4>
+        </div>
+        <div className={styles.testimonial}>
+          <img src="/image-jennie.jpg" />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h3>Jennie F.</h3>
+          <h4>Business Owner</h4>
+        </div>
       </section>
       <section className={styles.gallery}>
         <div>
