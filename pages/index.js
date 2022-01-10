@@ -12,6 +12,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
           rel="stylesheet"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <section className={styles.heroContainer}>
         <div className={styles.heroContent}>
@@ -26,7 +27,7 @@ export default function Home() {
       </section>
       <section className={styles.benefitsContainer}>
         <div className={styles.transformImage}>
-          <img src="/mobile/image-transform.jpg" />
+          <img src="/mobile/image-transform.jpg" alt="Image of an egg." />
         </div>
         <div className={styles.transformText}>
           <h2>Transform your brand</h2>
@@ -38,7 +39,10 @@ export default function Home() {
           <a>LEARN MORE</a>
         </div>
         <div className={styles.standoutImage}>
-          <img src="/mobile/image-stand-out.jpg" />
+          <img
+            src="/mobile/image-stand-out.jpg"
+            alt="Image of a peach colored wine like cup."
+          />
         </div>
         <div className={styles.standoutText}>
           <h2>Stand out to the right audience</h2>
@@ -68,7 +72,7 @@ export default function Home() {
       <section className={styles.testimonialContainer}>
         <h2>CLIENT TESTIMONIALS</h2>
         <div className={styles.testimonial}>
-          <img src="/image-emily.jpg" />
+          <img src="/image-emily.jpg" alt="Image of Emily R." />
           <p>
             We put our trust in Sunnyside and they delivered, making sure our
             needs were met and deadlines were always hit.
@@ -77,7 +81,7 @@ export default function Home() {
           <h4>Marketing Director</h4>
         </div>
         <div className={styles.testimonial}>
-          <img src="/image-thomas.jpg" />
+          <img src="/image-thomas.jpg" alt="Image of Thomas S." />
           <p>
             Sunnyside's enthusiasm coupled with their keen interest in our
             brand's success made it a satisfying and enjoyable exprience.
@@ -86,7 +90,7 @@ export default function Home() {
           <h4>Chief Operating Officer</h4>
         </div>
         <div className={styles.testimonial}>
-          <img src="/image-jennie.jpg" />
+          <img src="/image-jennie.jpg" alt="Image of Jennie F." />
           <p>
             Incredible end result! Our sales increased over 400% when we worked
             with Sunnyside. Highly recommended!
