@@ -50,10 +50,19 @@ export default function Home() {
           <a>LEARN MORE</a>
         </div>
         <div className={styles.graphicDesign}>
-          <img src="/mobile/image-graphic-design.jpg" />
+          <h2>Graphic Design</h2>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients'
+            attention.
+          </p>
         </div>
         <div className={styles.photography}>
-          <img src="/mobile/image-photography.jpg" />
+          <h2>Photography</h2>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
         </div>
       </section>
       <section className={styles.testimonialContainer}>

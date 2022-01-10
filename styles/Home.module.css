@@ -127,14 +127,50 @@
   padding: 60px 0;
 }
 
-.graphicDesign img {
-  display: block;
+.graphicDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url('/mobile/image-graphic-design.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
+  min-width: 320px;
+  height: 600px;
 }
 
-.photography img {
-  display: block;
+.graphicDesign h2,
+.graphicDesign p {
+  color: hsl(167, 40%, 24%);
+}
+
+.graphicDesign p {
+  padding-bottom: 25px;
+}
+
+.photography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url('/mobile/image-photography.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
+  min-width: 320px;
+  height: 600px;
+}
+
+.photography h2,
+.photography p {
+  color: hsl(198, 62%, 26%);
+}
+
+.photography p {
+  padding-bottom: 25px;
 }
 
 .testimonialContainer {
