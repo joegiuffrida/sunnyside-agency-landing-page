@@ -26,7 +26,7 @@ const Footer = () => {
                 className={styles.socialIcons}
               />
             </svg>
-            <span className={styles.visuallyHidden}>Facebook Icon Link</span>
+            <span className={styles.visuallyHidden}>Facebook Link</span>
           </a>
         </li>
         <li>
@@ -45,7 +45,7 @@ const Footer = () => {
                 className={styles.socialIcons}
               />
             </svg>
-            <span className={styles.visuallyHidden}>Instagram Icon Link</span>
+            <span className={styles.visuallyHidden}>Instagram Link</span>
           </a>
         </li>
         <li>
@@ -64,7 +64,7 @@ const Footer = () => {
                 className={styles.socialIcons}
               />
             </svg>
-            <span className={styles.visuallyHidden}>Twitter Icon Link</span>
+            <span className={styles.visuallyHidden}>Twitter Link</span>
           </a>
         </li>
         <li>
@@ -83,7 +83,7 @@ const Footer = () => {
                 className={styles.socialIcons}
               />
             </svg>
-            <span className={styles.visuallyHidden}>Pinterest Icon Link</span>
+            <span className={styles.visuallyHidden}>Pinterest Link</span>
           </a>
         </li>
       </ul>
