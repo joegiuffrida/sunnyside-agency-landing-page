@@ -4,7 +4,8 @@
   padding: 25px 0;
   background-color: hsl(200, 99%, 62%);
   min-width: 320px;
-  max-width: 375px;
+  /* max-width: 375px; */
+  flex: 1;
 }
 
 .navHeader {
