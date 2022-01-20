@@ -1,17 +1,17 @@
-import Nav from './Nav';
-import Footer from './Footer';
-import styles from './Layout.module.css';
+// import Nav from './Nav';
+// import Footer from './Footer';
+// import styles from './Layout.module.css';
 
-const Layout = ({ children }) => {
-  return (
-    <>
-      <Nav />
-      <div className={styles.container}>
-        <main className={styles.main}>{children}</main>
-      </div>
-      <Footer />
-    </>
-  );
-};
+// const Layout = ({ children }) => {
+//   return (
+//     <>
+//       <Nav />
+//       <div className={styles.container}>
+//         <main className={styles.main}>{children}</main>
+//       </div>
+//       <Footer />
+//     </>
+//   );
+// };
 
-export default Layout;
+// export default Layout;

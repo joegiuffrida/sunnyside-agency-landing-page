@@ -1,0 +1,44 @@
+/*
+
+Default: Phones from 0px to 549px 
+@media (min-width: 550px) {
+  // Tablets 
+}
+@media (min-width: 1100px) {
+  // Laptop 
+}
+@media (min-width: 1500px) {
+  // Desktop 
+}
+
+*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.heroContainer {
+  background-image: url('/desktop/image-header.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.transformImage img {
+  width: 100%;
+}
+
+.standoutImage img {
+  width: 100%;
+}
+
+.gallery div {
+  line-height: 0;
+}
+
+.gallery div img {
+  width: 50%;
+}
