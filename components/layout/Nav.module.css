@@ -1,0 +1,28 @@
+.navContainer {
+  display: flex;
+  background-color: hsl(200, 100%, 62%);
+  padding: 25px;
+}
+
+.navHeader {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+
+.navContainer a {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.mobileButton {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.75rem;
+  line-height: 0;
+}
