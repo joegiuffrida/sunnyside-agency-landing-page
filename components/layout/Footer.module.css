@@ -5,6 +5,7 @@
   flex: 1;
   padding: 25px 25px;
   background-color: hsl(166, 45%, 70%);
+  min-width: 280px;
 }
 
 .footerContainer h2 {

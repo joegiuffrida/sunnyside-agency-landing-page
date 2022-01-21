@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className={styles.heroTitle}>WE ARE CREATIVES</h1>
             <img
               src="/icon-arrow-down.svg"
-              height={100}
+              height={140}
               width={40}
               className={styles.heroArrow}
             />
