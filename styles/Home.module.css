@@ -24,8 +24,8 @@ Default: Phones from 0px to 549px
 .heroContainer {
   background-image: url('/desktop/image-header.jpg');
   background-size: cover;
-  background-position: center;
-  height: 600px;
+  background-position: bottom center;
+  min-height: 600px;
 }
 
 .heroContent {
@@ -48,8 +48,38 @@ Default: Phones from 0px to 549px
   margin-top: 40px;
 }
 
+.benefitsContainer a {
+  font-family: Fraunces, sans-serif;
+}
+
 .transformImage img {
   width: 100%;
+}
+
+.transformText,
+.standoutText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.transformText h2,
+.standoutText h2 {
+  font-size: 2.5rem;
+  font-family: Fraunces, sans-serif;
+  margin: 0;
+}
+
+.transformText p,
+.standoutText p {
+  line-height: 1.75rem;
+  margin: 32px 0;
+  font-size: 1.25rem;
+  color: hsl(210, 4%, 67%);
+  font-family: Barlow, sans-serif;
 }
 
 .standoutImage img {
