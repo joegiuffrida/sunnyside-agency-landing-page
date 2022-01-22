@@ -52,6 +52,10 @@ Default: Phones from 0px to 549px
   font-family: Fraunces, sans-serif;
 }
 
+.transformImage {
+  line-height: 0;
+}
+
 .transformImage img {
   width: 100%;
 }
@@ -82,8 +86,61 @@ Default: Phones from 0px to 549px
   font-family: Barlow, sans-serif;
 }
 
+.standoutImage {
+  line-height: 0;
+}
+
 .standoutImage img {
   width: 100%;
+}
+
+.graphicDesign {
+  background-image: url('/desktop/image-graphic-design.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.photography {
+  background-image: url('/desktop/image-photography.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.graphicDesign h2,
+.photography h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: Fraunces, sans-serif;
+}
+
+.graphicDesign p {
+  margin: 32px 0;
+  width: 90%;
+  line-height: 1.75rem;
+  font-family: Barlow, sans-serif;
+  color: hsl(167, 40%, 24%);
+}
+
+.photography p {
+  margin: 32px 0;
+  width: 90%;
+  line-height: 1.75rem;
+  font-family: Barlow, sans-serif;
+  color: hsl(198, 62%, 26%);
 }
 
 .gallery div {
