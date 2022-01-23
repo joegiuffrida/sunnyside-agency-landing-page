@@ -67,7 +67,7 @@ Default: Phones from 0px to 549px
   text-align: center;
   width: 90%;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 75px 0;
 }
 
 .transformText h2,
@@ -82,7 +82,7 @@ Default: Phones from 0px to 549px
   line-height: 1.75rem;
   margin: 32px 0;
   font-size: 1.25rem;
-  color: hsl(210, 4%, 67%);
+  color: hsl(232, 10%, 55%);
   font-family: Barlow, sans-serif;
 }
 
@@ -141,6 +141,54 @@ Default: Phones from 0px to 549px
   line-height: 1.75rem;
   font-family: Barlow, sans-serif;
   color: hsl(198, 62%, 26%);
+}
+
+.testimonialContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonialContainer h2 {
+  font-family: Fraunces, sans-serif;
+  color: hsl(210, 4%, 67%);
+  margin: 75px auto;
+  letter-spacing: 0.25rem;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 75px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial p {
+  line-height: 1.75rem;
+  margin: 32px 0;
+  font-size: 1.25rem;
+  color: hsl(232, 10%, 55%);
+  font-family: Barlow, sans-serif;
+}
+
+.testimonial h3 {
+  font-family: Fraunces, sans-serif;
+  color: hsl(212, 27%, 19%);
+  margin: 10px 0;
+}
+
+.testimonial h4 {
+  font-family: Barlow, sans-serif;
+  color: hsl(210, 4%, 67%);
+  margin: 0;
 }
 
 .gallery div {
