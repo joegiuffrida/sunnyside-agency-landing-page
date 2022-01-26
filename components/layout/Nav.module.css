@@ -7,7 +7,7 @@
   min-width: 280px;
 }
 
-.navHeader {
+.mobileNavHeader {
   display: flex;
   align-items: center;
   flex: 1;
@@ -16,13 +16,13 @@
   color: white;
 }
 
-.navHeader a {
+.mobileNavHeader a {
   font-size: 1.75rem;
   font-weight: bold;
   margin-top: -5px;
 }
 
-.navHeader .mobileButton {
+.mobileNavHeader .mobileButton {
   background: transparent;
   border: none;
   color: white;

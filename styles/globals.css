@@ -1,3 +1,7 @@
+#root {
+  isolation: isolate;
+}
+
 html,
 body {
   padding: 0;
