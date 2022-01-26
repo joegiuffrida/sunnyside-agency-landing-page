@@ -3,6 +3,7 @@ import styles from './Nav.module.css';
 import { FaBars } from 'react-icons/fa';
 
 import MobileMenu from './MobileMenu';
+import VisuallyHidden from '../../util/VisuallyHidden';
 
 const Nav = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -16,6 +17,7 @@ const Nav = () => {
           onClick={() => setShowMobileMenu(true)}
         >
           <FaBars />
+          <VisuallyHidden>Menu Button</VisuallyHidden>
         </button>
         <MobileMenu
           isOpen={showMobileMenu}
