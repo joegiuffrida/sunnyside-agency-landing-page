@@ -16,11 +16,12 @@ const MobileMenu = ({ isOpen, onDismiss }) => {
           <AiOutlineClose />
           <VisuallyHidden>Dismiss Menu</VisuallyHidden>
         </button>
+        <div className={styles.triangle} />
         <nav className={styles.nav}>
           <a>About</a>
-          <a>Sevices</a>
+          <a>Services</a>
           <a>Projects</a>
-          <button>Contact</button>
+          <button>CONTACT</button>
         </nav>
       </DialogContent>
     </DialogOverlay>
