@@ -2,24 +2,30 @@
 
 .navContainer {
   display: flex;
+  justify-content: space-between;
   background-color: hsl(200, 100%, 62%);
   padding: 25px;
   min-width: 280px;
 }
 
+.navContainer a {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+  margin-top: -5px;
+}
+
 .mobileNavHeader {
   display: flex;
   align-items: center;
-  flex: 1;
-  justify-content: space-between;
-  width: 100%;
+  /* flex: 1; */
+
+  /* width: 100%; */
   color: white;
 }
 
-.mobileNavHeader a {
-  font-size: 1.75rem;
-  font-weight: bold;
-  margin-top: -5px;
+.desktopNavHeader {
+  display: none;
 }
 
 .mobileNavHeader .mobileButton {
@@ -29,4 +35,39 @@
   font-size: 1.75rem;
   line-height: 0;
   padding: 0;
+}
+
+@media (min-width: 62.5rem) {
+  .mobileNavHeader {
+    display: none;
+  }
+
+  .desktopNavHeader {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktopNavHeader nav {
+    display: flex;
+    align-items: baseline;
+    gap: clamp(2rem, 6.8vw - 2.25rem, 4.5rem);
+  }
+
+  .desktopNavHeader nav a {
+    font-size: 1.25rem;
+  }
+
+  .desktopNavButton {
+    font-size: 1rem;
+    font-family: Fraunces, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+  }
 }

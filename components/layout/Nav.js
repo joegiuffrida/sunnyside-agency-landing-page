@@ -10,8 +10,10 @@ const Nav = () => {
 
   return (
     <div className={styles.navContainer}>
-      <div className={styles.mobileNavHeader}>
+      <div className={styles.navLogo}>
         <a>sunnyside</a>
+      </div>
+      <div className={styles.mobileNavHeader}>
         <button
           className={`${styles.mobileButton} ${styles.toggleMobileButton}`}
           onClick={() => setShowMobileMenu(true)}
@@ -23,6 +25,14 @@ const Nav = () => {
           isOpen={showMobileMenu}
           onDismiss={() => setShowMobileMenu(false)}
         />
+      </div>
+      <div className={styles.desktopNavHeader}>
+        <nav>
+          <a>About</a>
+          <a>Services</a>
+          <a>Projects</a>
+          <button className={styles.desktopNavButton}>CONTACT</button>
+        </nav>
       </div>
     </div>
   );

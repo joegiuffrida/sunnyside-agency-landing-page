@@ -18,9 +18,9 @@ const MobileMenu = ({ isOpen, onDismiss }) => {
         </button>
         <div className={styles.triangle} />
         <nav className={styles.nav}>
-          <a>About</a>
-          <a>Services</a>
-          <a>Projects</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
           <button>CONTACT</button>
         </nav>
       </DialogContent>

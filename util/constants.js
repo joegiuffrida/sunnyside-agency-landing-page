@@ -1,6 +1,6 @@
 export const BREAKPOINTS = {
   tablet: 600,
-  laptop: 1300,
+  laptop: 1000,
 };
 
 export const QUERIES = {
