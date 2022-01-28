@@ -151,7 +151,7 @@ Default: Phones from 0px to 549px
   flex-direction: column;
 }
 
-.testimonialContainer h2 {
+.testimonialTitle {
   font-family: Fraunces, sans-serif;
   color: hsl(210, 4%, 67%);
   margin: 75px auto;
@@ -180,6 +180,8 @@ Default: Phones from 0px to 549px
   font-size: 1.25rem;
   color: hsl(232, 10%, 55%);
   font-family: Barlow, sans-serif;
+  padding: 0 20px;
+  min-height: 75px;
 }
 
 .testimonial h3 {
@@ -253,5 +255,19 @@ Default: Phones from 0px to 549px
 
   .testimonialContainer {
     flex-direction: row;
+    padding: 75px;
+    gap: 25px;
+  }
+
+  .testimonialContainer h2 {
+    display: block;
+  }
+
+  .testimonial {
+    padding-bottom: 0;
+  }
+
+  .testimonial p {
+    font-size: 1rem;
   }
 }

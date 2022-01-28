@@ -76,8 +76,8 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <h2 className={styles.testimonialTitle}>CLIENT TESTIMONIALS</h2>
         <section className={styles.testimonialContainer}>
-          <h2>CLIENT TESTIMONIALS</h2>
           <div className={styles.testimonial}>
             <img src="/image-emily.jpg" alt="Image of Emily R." />
             <p>
