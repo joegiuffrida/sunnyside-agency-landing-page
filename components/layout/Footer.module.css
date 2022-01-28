@@ -21,16 +21,18 @@
 
 .footerLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 95%;
   color: hsl(168, 34%, 38%);
+  gap: clamp(2rem, 6.8vw - 2.25rem, 4.5rem);
 }
 
 .footerSocial {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 60%;
   margin: 50px 0;
+  gap: clamp(2rem, 6.8vw - 2.25rem, 4.5rem);
 }
 
 .footerLinks li:hover {

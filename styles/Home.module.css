@@ -204,6 +204,12 @@ Default: Phones from 0px to 549px
   width: 50%;
 }
 
+/*
+***************** 
+Tablet and bigger screen sizes
+*****************
+*/
+
 @media (min-width: 62.5rem) {
   .benefitsContainer {
     display: flex;
@@ -256,6 +262,7 @@ Default: Phones from 0px to 549px
   .testimonialContainer {
     flex-direction: row;
     padding: 75px;
+    padding-top: 0;
     gap: 25px;
   }
 
@@ -269,5 +276,9 @@ Default: Phones from 0px to 549px
 
   .testimonial p {
     font-size: 1rem;
+  }
+
+  .gallery {
+    display: flex;
   }
 }
