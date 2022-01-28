@@ -57,6 +57,10 @@
     font-size: 1.25rem;
   }
 
+  .desktopNavHeader nav a:hover {
+    color: hsl(200, 100%, 21%);
+  }
+
   .desktopNavButton {
     font-size: 1rem;
     font-family: Fraunces, sans-serif;
@@ -69,5 +73,10 @@
     display: inline-block;
     cursor: pointer;
     border-radius: 20px;
+  }
+
+  .desktopNavButton:hover {
+    background-color: hsl(200, 99%, 72%);
+    color: white;
   }
 }

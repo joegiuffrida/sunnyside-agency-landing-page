@@ -15,7 +15,7 @@ const Nav = () => {
       </div>
       <div className={styles.mobileNavHeader}>
         <button
-          className={`${styles.mobileButton} ${styles.toggleMobileButton}`}
+          className={styles.mobileButton}
           onClick={() => setShowMobileMenu(true)}
         >
           <FaBars />

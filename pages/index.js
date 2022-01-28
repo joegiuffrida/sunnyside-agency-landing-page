@@ -43,7 +43,7 @@ export default function Home() {
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </p>
-            <a>LEARN MORE</a>
+            <a href="#">LEARN MORE</a>
           </div>
           <div className={styles.standoutImage}>
             <img
@@ -58,7 +58,7 @@ export default function Home() {
               photographers, videographers, and copywriters, we'll build and
               extend your brand in digital places.
             </p>
-            <a>LEARN MORE</a>
+            <a href="#">LEARN MORE</a>
           </div>
           <div className={styles.graphicDesign}>
             <h2>Graphic Design</h2>

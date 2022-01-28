@@ -73,6 +73,11 @@ Default: Phones from 0px to 549px
   padding: 75px 0;
 }
 
+.transformText a,
+.standoutText a {
+  width: fit-content;
+}
+
 .transformText h2,
 .standoutText h2 {
   font-size: 2.5rem;
