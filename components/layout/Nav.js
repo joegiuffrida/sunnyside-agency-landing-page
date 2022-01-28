@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <div className={styles.navContainer}>
       <div className={styles.navLogo}>
-        <a>sunnyside</a>
+        <a href="#">sunnyside</a>
       </div>
       <div className={styles.mobileNavHeader}>
         <button
@@ -28,9 +28,9 @@ const Nav = () => {
       </div>
       <div className={styles.desktopNavHeader}>
         <nav>
-          <a>About</a>
-          <a>Services</a>
-          <a>Projects</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
           <button className={styles.desktopNavButton}>CONTACT</button>
         </nav>
       </div>

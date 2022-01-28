@@ -134,6 +134,7 @@ Default: Phones from 0px to 549px
   line-height: 1.75rem;
   font-family: Barlow, sans-serif;
   color: hsl(167, 40%, 24%);
+  padding: 0 100px;
 }
 
 .photography p {
@@ -142,6 +143,7 @@ Default: Phones from 0px to 549px
   line-height: 1.75rem;
   font-family: Barlow, sans-serif;
   color: hsl(198, 62%, 26%);
+  padding: 0 100px;
 }
 
 .testimonialContainer {
@@ -198,4 +200,58 @@ Default: Phones from 0px to 549px
 
 .gallery div img {
   width: 50%;
+}
+
+@media (min-width: 62.5rem) {
+  .benefitsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .transformImage {
+    width: 50%;
+    order: 2;
+  }
+
+  .transformText {
+    justify-content: center;
+    width: 50%;
+    order: 1;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .standoutImage {
+    width: 50%;
+    order: 3;
+  }
+
+  .standoutImage img {
+    line-height: 0;
+    display: block;
+  }
+
+  .standoutText {
+    justify-content: center;
+    width: 50%;
+    order: 4;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .graphicDesign {
+    width: 50%;
+    order: 5;
+  }
+
+  .photography {
+    width: 50%;
+    order: 6;
+  }
+
+  .testimonialContainer {
+    flex-direction: row;
+  }
 }
